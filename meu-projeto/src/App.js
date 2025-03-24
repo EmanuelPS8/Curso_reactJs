@@ -2,6 +2,7 @@ import './App.css';
 import SayMyName from './components/SayMyName';
 import Pessoa from './components/Pessoa';
 import Frase from './components/Frase';
+import List from './components/List';
 function App() {
 
   // pode utilizar esse área para colocar variaveis
@@ -23,6 +24,7 @@ function App() {
       <SayMyName nome="João" />
       <SayMyName nome={nome} />
       <Pessoa foto={url2} nome="JungKook" idade="28" profissao="Desenvolvedor" />
+      <List/>
     </div>
   );
 }
